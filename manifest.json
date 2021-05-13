@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Covid vaccine availability location",
+  "version": "1.0.0",
+  "description": "Quick launch for Covid vaccine availability location",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "128": "icon.png"
+  },
+
+  "permissions": []
+}
