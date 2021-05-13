@@ -44,7 +44,7 @@ function showCenterMainDetails(center) {
   divBody.appendChild(cardTitle);
   const pEle = document.createElement('p');
   pEle.className = 'card-text';
-  pEle.innerText = `${center.address}, open at: ${center.from} and Closed at: ${center.to}`;
+  pEle.innerText = `${center.address}, open at: ${center.from} and Close at: ${center.to}`;
   divBody.appendChild(pEle);
 
   const button = document.createElement('button');
